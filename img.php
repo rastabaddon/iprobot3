@@ -58,7 +58,7 @@ $data = curl_exec($ch);
 
 error_log("SUCCESS");
 file_put_contents("tmp/frame-".$cam."-".$frameid.".jpg",$data);
-file_get_contents("fake.jpg",$data);
+file_put_contents("fake.jpg",$data);
 echo $data;
 // close cURL resource, and free up system resources
 curl_close($ch);
