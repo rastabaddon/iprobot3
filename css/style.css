@@ -1,0 +1,21 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #222222;
+}
+
+#frame {
+
+
+    border: 0 none;
+    height: 750px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 1311px;
+
+}
+
+.options {
+	
+}
